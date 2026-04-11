@@ -1,6 +1,8 @@
-# DualCamOpenVLA!
+# DualCamOpenVLA
 
+本文在OpenVLA的原有backbone的基础上新增了一条视觉通道以支持腕部视角，采用中期融合简单拼接的策略，将主视角和腕部视角的视觉token在特征层按序列拼接，然后与语言token合并生成动作。
 
+因为是在OpenVLA的基础上进行的工作，故后面的教程可以通用。
 
 <hr style="border: 2px solid gray;"></hr>
 
